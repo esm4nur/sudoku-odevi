@@ -1,0 +1,67 @@
+/* ESMANUR ÖZDEMİR */
+*{margin: 0px;
+padding:0;
+box-sizing: border-box;
+}
+.header {
+  display:flex;
+  justify-content: center;
+}
+.main{
+  display:flex;
+  justify-content: center;
+}
+table{
+  padding: 10px;
+  margin: auto;
+  border:5px solid indigo;
+  background-color: pink;
+}
+tr:first-child td{
+  border-top-color: black
+}
+
+tr:nth-child(3n) td{
+  border-bottom-color: black;
+}
+
+tr:nth-child(4) td{
+  border-top-color: black;
+}
+
+tr:nth-child(7) td{
+  border-top-color: black;
+}
+td {
+  border: 3px solid white;
+  height: 40px;
+  width:40px;
+  background-color: rgb(230, 44, 44);
+}
+
+td:first-child {
+  border-left-color: black
+}
+
+td:nth-child(3n){
+  border-right-color: black;
+}
+td:nth-child(4){
+  border-left-color: black;
+}
+
+td:nth-child(7){
+  border-left-color: black;
+}
+
+
+input {
+  text-align: center;
+  border:0;
+  height:45px;
+  width: 45px;
+}
+
+input:hover{
+  background: greenyellow;
+}
